@@ -1,0 +1,19 @@
+{
+    "vue3 template script style": {
+        "prefix": ["vue", "vuets", "vue3", "vue3ts", "vuetemplete"],
+        "body": [
+            "<template>",
+            "\t<div>",
+            "",
+            "\t</div>",
+            "</template>",
+            "<script lang=\"ts\" setup>",
+            "\t$0",
+            "</script>",
+            "<style lang=\"scss\" scoped>",
+            "",
+            "</style>"
+        ],
+        "description": "vue3 template script ts style scss"
+    }
+}

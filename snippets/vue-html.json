@@ -1,0 +1,7 @@
+{
+    "v-for vue": {
+        "prefix": ["vFor", "v-for"],
+        "body": "v-for=\"item in $0\"",
+        "description": "v-for directive of vue3"
+    }
+}

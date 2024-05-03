@@ -1,0 +1,53 @@
+{
+    "name": "vue3-snippets-plus",
+    "displayName": "vue3 snippets plus",
+    "description": "vue3 code snippets plus for development",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.75.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "vue",
+                "aliases": [
+                    "Vue",
+                    "vue",
+                    "vue2",
+                    "vue3"
+                ],
+                "extensions": [
+                    ".vue"
+                ]
+            }
+        ],
+        "snippets": [
+            {
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "vue",
+                "path": "./snippets/vue.json"
+            },
+            {
+                "language": "vue-html",
+                "path": "./snippets/vue-html.json"
+            },
+            {
+                "language": "html",
+                "path": "./snippets/vue-html.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/vue-script.json"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/vue-script.json"
+            }
+        ]
+    }
+}
