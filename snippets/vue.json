@@ -1,6 +1,6 @@
 {
-    "vue3 template script style": {
-        "prefix": ["vue", "vuets", "vue3", "vue3ts", "vuetemplete"],
+    "Vue3 template script style": {
+        "prefix": ["vue", "vuets", "Vue3", "Vue3ts", "vuetemplete"],
         "body": [
             "<template>",
             "\t<div>",
@@ -14,6 +14,41 @@
             "",
             "</style>"
         ],
-        "description": "vue3 template script ts style scss"
+        "description": "Vue3 template script ts style scss"
+    },
+    "Vue3|vue2 template": {
+        "prefix": ["vuetemplate", "template", "Vue3template"],
+        "body": ["<template>", "\t<div>", "\t\t$0", "\t</div>", "</template>"],
+        "description": "vue template tag"
+    },
+    "Vue3 script setup lang ts": {
+        "prefix": ["script", "tsscript", "scriptts", "scriptlangts", "scriptsetup"],
+        "body": ["<script lang=\"ts\" setup>", "\t$0", "</script>"],
+        "description": "Vue3 script tag with setup lang props"
+    },
+    "Vue3 script setup": {
+        "prefix": ["script", "scriptsetup"],
+        "body": ["<script setup>", "\t$0", "</script>"],
+        "description": "Vue3 script tag with setup prop"
+    },
+    "Vue3 script lang": {
+        "prefix": ["script", "scriptlang"],
+        "body": ["<script lang=\"\">", "\t$0", "</script>"],
+        "description": "Vue3 script tag with lang prop"
+    },
+    "Vue3 style lang scoped": {
+        "prefix": ["style", "stylelang", "stylescoped"],
+        "body": ["<style lang=\"\" scoped>", "\t$0", "</style>"],
+        "description": "Vue3 style tag with lang scoped props"
+    },
+    "Vue3 scss style scoped": {
+        "prefix": ["scss", "sass", "style"],
+        "body": ["<style lang=\"scss\" scoped>", "\t$0", "</style>"],
+        "description": "Vue3 scss style tag with lang scoped props"
+    },
+    "Vue3 less style scoped": {
+        "prefix": ["less", "style"],
+        "body": ["<style lang=\"less\" scoped>", "\t$0", "</style>"],
+        "description": "Vue3 less style tag with lang scoped props"
     }
 }

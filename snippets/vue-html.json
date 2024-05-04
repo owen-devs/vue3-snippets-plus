@@ -1,77 +1,37 @@
 {
-    "vue3 v-text": {
+    "Vue3 v-text": {
         "prefix": ["v-text"],
         "body": ["v-text=\"$0\""],
-        "description": "vue3 directive"
+        "description": "Vue3 directive"
     },
-    "vue3 v-html": {
+    "Vue3 v-html": {
         "prefix": ["v-html"],
         "body": ["v-html=\"$0\""],
-        "description": "vue3 directive"
+        "description": "Vue3 directive"
     },
-    "vue3 v-show": {
+    "Vue3 v-show": {
         "prefix": ["v-show"],
         "body": ["v-show=\"$0\""],
-        "description": "vue3 directive"
+        "description": "Vue3 directive"
     },
-    "vue3 v-if": {
+    "Vue3 v-if": {
         "prefix": ["v-if"],
         "body": ["v-if=\"$0\""],
-        "description": "vue3 directive"
+        "description": "Vue3 directive"
     },
-    "vue3 v-else-if": {
-        "prefix": ["v-else-if"],
-        "body": ["v-else-if=\"$0\""],
-        "description": "vue3 directive"
-    },
-    "vue3 v-for": {
+    "Vue3 v-for": {
         "prefix": ["v-for"],
         "body": ["v-for=\"item in $0\" :key=\"\""],
-        "description": "vue3 directive"
+        "description": "Vue3 directive"
     },
-    "vue3 v-on": {
-        "prefix": ["v-on"],
-        "body": ["v-on=\"$0\""],
-        "description": "vue3 directive"
-    },
-    "vue3 v-bind": {
-        "prefix": ["v-bind"],
-        "body": ["v-bind=\"$0\""],
-        "description": "vue3 directive"
-    },
-    "vue3 v-model": {
+    "Vue3 v-model": {
         "prefix": ["v-model"],
         "body": ["v-model=\"$0\""],
-        "description": "vue3 directive"
+        "description": "Vue3 directive"
     },
-    "vue3 v-slot": {
+    "Vue3 v-slot": {
         "prefix": ["v-slot"],
         "body": ["v-slot=\"$0\""],
-        "description": "vue3 directive"
-    },
-    "vue3 v-else": {
-        "prefix": ["v-else"],
-        "body": ["v-else"],
-        "description": "vue3 directive"
-    },
-    "vue3 v-memo": {
-        "prefix": ["v-memo"],
-        "body": ["v-memo"],
-        "description": "vue3 directive"
-    },
-    "vue3 v-pre": {
-        "prefix": ["v-pre"],
-        "body": ["v-pre"],
-        "description": "vue3 directive"
-    },
-    "vue3 v-once": {
-        "prefix": ["v-once"],
-        "body": ["v-once"],
-        "description": "vue3 directive"
-    },
-    "vue3 v-cloak": {
-        "prefix": ["v-cloak"],
-        "body": ["v-cloak"],
-        "description": "vue3 directive"
+        "description": "Vue3 directive"
     }
 }

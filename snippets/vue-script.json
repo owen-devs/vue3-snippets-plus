@@ -1,277 +1,42 @@
 {
-    "vue3 onMounted()": {
+    "Vue3 onMounted()": {
         "prefix": ["onMounted()"],
         "body": ["onMounted(()=>{", "\t$0", "})"],
-        "description": "vue3 composition API"
+        "description": "Vue3 composition API"
     },
-    "vue3 onUpdated()": {
-        "prefix": ["onUpdated()"],
-        "body": ["onUpdated(()=>{", "\t$0", "})"],
-        "description": "vue3 composition API"
-    },
-    "vue3 onUnmounted()": {
-        "prefix": ["onUnmounted()"],
-        "body": ["onUnmounted(()=>{", "\t$0", "})"],
-        "description": "vue3 composition API"
-    },
-    "vue3 onBeforeMount()": {
-        "prefix": ["onBeforeMount()"],
-        "body": ["onBeforeMount(()=>{", "\t$0", "})"],
-        "description": "vue3 composition API"
-    },
-    "vue3 onBeforeUpdate()": {
-        "prefix": ["onBeforeUpdate()"],
-        "body": ["onBeforeUpdate(()=>{", "\t$0", "})"],
-        "description": "vue3 composition API"
-    },
-    "vue3 onBeforeUnmount()": {
-        "prefix": ["onBeforeUnmount()"],
-        "body": ["onBeforeUnmount(()=>{", "\t$0", "})"],
-        "description": "vue3 composition API"
-    },
-    "vue3 onErrorCaptured()": {
-        "prefix": ["onErrorCaptured()"],
-        "body": ["onErrorCaptured(()=>{", "\t$0", "})"],
-        "description": "vue3 composition API"
-    },
-    "vue3 onRenderTracked()": {
-        "prefix": ["onRenderTracked()"],
-        "body": ["onRenderTracked(()=>{", "\t$0", "})"],
-        "description": "vue3 composition API"
-    },
-    "vue3 onRenderTriggered()": {
-        "prefix": ["onRenderTriggered()"],
-        "body": ["onRenderTriggered(()=>{", "\t$0", "})"],
-        "description": "vue3 composition API"
-    },
-    "vue3 onActivated()": {
-        "prefix": ["onActivated()"],
-        "body": ["onActivated(()=>{", "\t$0", "})"],
-        "description": "vue3 composition API"
-    },
-    "vue3 onDeactivated()": {
-        "prefix": ["onDeactivated()"],
-        "body": ["onDeactivated(()=>{", "\t$0", "})"],
-        "description": "vue3 composition API"
-    },
-    "vue3 onServerPrefetch()": {
-        "prefix": ["onServerPrefetch()"],
-        "body": ["onServerPrefetch(()=>{", "\t$0", "})"],
-        "description": "vue3 composition API"
-    },
-    "vue3 provide()": {
-        "prefix": ["provide()"],
-        "body": ["provide($0)"],
-        "description": "vue3 composition API"
-    },
-    "vue3 inject()": {
-        "prefix": ["inject()"],
-        "body": ["inject($0)"],
-        "description": "vue3 composition API"
-    },
-    "vue3 hasInjectionContext()": {
-        "prefix": ["hasInjectionContext()"],
-        "body": ["hasInjectionContext($0)"],
-        "description": "vue3 composition API"
-    },
-    "vue3 shallowRef()": {
-        "prefix": ["shallowRef()"],
-        "body": ["shallowRef($0)"],
-        "description": "vue3 composition API"
-    },
-    "vue3 triggerRef()": {
-        "prefix": ["triggerRef()"],
-        "body": ["triggerRef($0)"],
-        "description": "vue3 composition API"
-    },
-    "vue3 customRef()": {
-        "prefix": ["customRef()"],
-        "body": ["customRef($0)"],
-        "description": "vue3 composition API"
-    },
-    "vue3 shallowReactive()": {
-        "prefix": ["shallowReactive()"],
-        "body": ["shallowReactive($0)"],
-        "description": "vue3 composition API"
-    },
-    "vue3 shallowReadonly()": {
-        "prefix": ["shallowReadonly()"],
-        "body": ["shallowReadonly($0)"],
-        "description": "vue3 composition API"
-    },
-    "vue3 toRaw()": {
-        "prefix": ["toRaw()"],
-        "body": ["toRaw($0)"],
-        "description": "vue3 composition API"
-    },
-    "vue3 markRaw()": {
-        "prefix": ["markRaw()"],
-        "body": ["markRaw($0)"],
-        "description": "vue3 composition API"
-    },
-    "vue3 effectScope()": {
-        "prefix": ["effectScope()"],
-        "body": ["effectScope($0)"],
-        "description": "vue3 composition API"
-    },
-    "vue3 getCurrentScope()": {
-        "prefix": ["getCurrentScope()"],
-        "body": ["getCurrentScope($0)"],
-        "description": "vue3 composition API"
-    },
-    "vue3 onScopeDispose()": {
-        "prefix": ["onScopeDispose()"],
-        "body": ["onScopeDispose($0)"],
-        "description": "vue3 composition API"
-    },
-    "vue3 isRef()": {
-        "prefix": ["isRef()"],
-        "body": ["isRef($0)"],
-        "description": "vue3 composition API"
-    },
-    "vue3 unref()": {
-        "prefix": ["unref()"],
-        "body": ["unref($0)"],
-        "description": "vue3 composition API"
-    },
-    "vue3 toRef()": {
-        "prefix": ["toRef()"],
-        "body": ["toRef($0)"],
-        "description": "vue3 composition API"
-    },
-    "vue3 toValue()": {
-        "prefix": ["toValue()"],
-        "body": ["toValue($0)"],
-        "description": "vue3 composition API"
-    },
-    "vue3 toRefs()": {
-        "prefix": ["toRefs()"],
-        "body": ["toRefs($0)"],
-        "description": "vue3 composition API"
-    },
-    "vue3 isProxy()": {
-        "prefix": ["isProxy()"],
-        "body": ["isProxy($0)"],
-        "description": "vue3 composition API"
-    },
-    "vue3 isReactive()": {
-        "prefix": ["isReactive()"],
-        "body": ["isReactive($0)"],
-        "description": "vue3 composition API"
-    },
-    "vue3 isReadonly()": {
-        "prefix": ["isReadonly()"],
-        "body": ["isReadonly($0)"],
-        "description": "vue3 composition API"
-    },
-    "vue3 ref()": {
+    "Vue3 ref()": {
         "prefix": ["ref()"],
-        "body": ["ref($0)"],
-        "description": "vue3 composition API"
+        "body": ["const $0 = ref()"],
+        "description": "Vue3 composition API"
     },
-    "vue3 computed()": {
+    "Vue3 computed()": {
         "prefix": ["computed()"],
-        "body": ["computed($0)"],
-        "description": "vue3 composition API"
+        "body": ["const $0 = computed()"],
+        "description": "Vue3 composition API"
     },
-    "vue3 reactive()": {
+    "Vue3 reactive()": {
         "prefix": ["reactive()"],
-        "body": ["reactive($0)"],
-        "description": "vue3 composition API"
+        "body": ["const $0 = reactive({})"],
+        "description": "Vue3 composition API"
     },
-    "vue3 readonly()": {
-        "prefix": ["readonly()"],
-        "body": ["readonly($0)"],
-        "description": "vue3 composition API"
-    },
-    "vue3 watchEffect()": {
-        "prefix": ["watchEffect()"],
-        "body": ["watchEffect($0)"],
-        "description": "vue3 composition API"
-    },
-    "vue3 watchPostEffect()": {
-        "prefix": ["watchPostEffect()"],
-        "body": ["watchPostEffect($0)"],
-        "description": "vue3 composition API"
-    },
-    "vue3 watchSyncEffect()": {
-        "prefix": ["watchSyncEffect()"],
-        "body": ["watchSyncEffect($0)"],
-        "description": "vue3 composition API"
-    },
-    "vue3 watch()": {
+    "Vue3 watch()": {
         "prefix": ["watch()"],
         "body": ["watch(", "\t()=>$0,", "\t(val)=>{", "\t\t", "\t}", ")"],
-        "description": "vue3 composition API watch"
+        "description": "Vue3 composition API watch"
     },
-    "vue3 nextTick()": {
+    "Vue3 nextTick()": {
         "prefix": ["nextTick()"],
         "body": ["nextTick(()=>{", "\t$0", "})"],
-        "description": "vue3 composition API"
+        "description": "Vue3 composition API"
     },
-    "vue3 defineComponent()": {
-        "prefix": ["defineComponent()"],
-        "body": ["defineComponent($0)"],
-        "description": "vue3 composition API"
-    },
-    "vue3 defineAsyncComponent()": {
-        "prefix": ["defineAsyncComponent()"],
-        "body": ["defineAsyncComponent($0)"],
-        "description": "vue3 composition API"
-    },
-    "vue3 defineCustomElement()": {
-        "prefix": ["defineCustomElement()"],
-        "body": ["defineCustomElement($0)"],
-        "description": "vue3 composition API"
-    },
-    "vue3 defineProps()": {
+    "Vue3 defineProps()": {
         "prefix": ["defineProps()"],
-        "body": ["defineProps($0)"],
-        "description": "vue3 composition API"
+        "body": ["const props = defineProps({$0})"],
+        "description": "Vue3 composition API"
     },
-    "vue3 defineEmits()": {
+    "Vue3 defineEmits()": {
         "prefix": ["defineEmits()"],
-        "body": ["defineEmits($0)"],
-        "description": "vue3 composition API"
-    },
-    "vue3 defineModel()": {
-        "prefix": ["defineModel()"],
-        "body": ["defineModel($0)"],
-        "description": "vue3 composition API"
-    },
-    "vue3 defineExpose()": {
-        "prefix": ["defineExpose()"],
-        "body": ["defineExpose($0)"],
-        "description": "vue3 composition API"
-    },
-    "vue3 defineOptions()": {
-        "prefix": ["defineOptions()"],
-        "body": ["defineOptions($0)"],
-        "description": "vue3 composition API"
-    },
-    "vue3 defineSlots()": {
-        "prefix": ["defineSlots()"],
-        "body": ["defineSlots($0)"],
-        "description": "vue3 composition API"
-    },
-    "vue3 useSlots() ": {
-        "prefix": ["useSlots() "],
-        "body": ["useSlots($0)"],
-        "description": "vue3 composition API"
-    },
-    "vue3 useAttrs()": {
-        "prefix": ["useAttrs()"],
-        "body": ["useAttrs($0)"],
-        "description": "vue3 composition API"
-    },
-    "vue3 createApp()": {
-        "prefix": ["createApp()"],
-        "body": ["createApp($0)"],
-        "description": "vue3 composition API"
-    },
-    "vue3 createSSRApp()": {
-        "prefix": ["createSSRApp()"],
-        "body": ["createSSRApp($0)"],
-        "description": "vue3 composition API"
+        "body": ["const emits = defineEmits($0)"],
+        "description": "Vue3 composition API"
     }
 }

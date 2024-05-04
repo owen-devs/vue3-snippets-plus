@@ -1,37 +1,48 @@
-# vue3 snippets plus
+# Vue3 snippets plus
 
-#### 介绍
-一个 vue3 和 vue2 代码片段提示插件
+a Vue3 and vue2 code snippets extension for vscode.
 
-#### 软件架构
-软件架构说明
+### Illustrate
 
+You just need to type the code normally, and it will give you a prompt on its own, making you type faster.
 
-#### 安装教程
+### Partial examples
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+| keyword              | snippet                                                                                               |
+| :------------------- | :---------------------------------------------------------------------------------------------------- |
+| vue                  | `<template><div></div></template><script lang="ts" setup></script><style lang="scss" scoped></style>` |
+| template             | `<template><div></div></template>`                                                                    |
+| component            | `<component :is="" />`                                                                                |
+| script               | `<script lang="ts" setup></script>`                                                                   |
+| scss                 | `<style lang="scss" scoped></style>`                                                                  |
+| less                 | `<style lang="less" scoped></style>`                                                                  |
+| style                | `<style lang="" scoped></style>`                                                                      |
+| v-for                | `v-for="item in " :key=""`                                                                            |
+| v-show               | `v-show=""`                                                                                           |
+| v-if                 | `v-if=""`                                                                                             |
+| v-else               | `v-else`                                                                                              |
+| v-else-if            | `v-else-if=""`                                                                                        |
+| v-html               | `v-html=""`                                                                                           |
+| v-text               | `v-text=""`                                                                                           |
+| v-model              | `v-model=""`                                                                                          |
+| v-bind               | `v-bind=""`                                                                                           |
+| v-once               | `v-once`                                                                                              |
+| v-pre                | `v-pre`                                                                                               |
+| import               | `import ... from "`                                                                                   |
+| nextTick             | `nextTick(()=>{})`                                                                                    |
+| onMounted            | `onMounted(()=>{})`                                                                                   |
+| watch                | `watch(()=>,(val)=>{})`                                                                               |
+| computed             | `const ... = computed(()=>{})`                                                                        |
+| ref                  | `const ... = ref()`                                                                                   |
+| reactive             | `const ... = reactive({})`                                                                            |
+| readonly             | `const ... = readonly({})`                                                                            |
+| defineModel          | `const ... = defineModel()`                                                                           |
+| defineEmits          | `const ... = defineEmits()`                                                                           |
+| defineProps          | `const ... = defineProps()`                                                                           |
+| defineExpose         | `const ... = defineExpose({})`                                                                        |
+| defineEmits          | `const ... = defineEmits()`                                                                           |
+| defineComponent      | `const ... = defineComponent()`                                                                       |
+| defineAsyncComponent | `const ... = defineAsyncComponent()`                                                                  |
+| useSlots             | `const ... = useSlots()`                                                                              |
+| createApp            | `const ... = createApp()`                                                                             |
+| createSSRApp         | `const ... = createSSRApp()`                                                                          |
