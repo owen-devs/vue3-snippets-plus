@@ -6,6 +6,14 @@ a Vue3 and vue2 code snippets extension for vscode.
 
 You just need to type the code normally, and it will give you a prompt on its own, making you type faster.
 
+### Operation demonstration
+
+![](./assets/vuedemo.gif)
+
+![](./assets/v-for.gif)
+
+![](./assets/mounted.gif)
+
 ### Partial examples
 
 | keyword              | snippet                                                                                               |
