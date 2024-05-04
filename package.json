@@ -3,9 +3,25 @@
     "displayName": "vue3 snippets plus",
     "description": "vue3 code snippets plus for development",
     "version": "0.0.1",
+    "publisher": "Owen.dev",
     "engines": {
         "vscode": "^1.75.0"
     },
+    "icon": "assets/logo.png",
+    "keywords": [
+        "vue",
+        "snippets",
+        "vue3"
+    ],
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "bugs": {
+        "url": "https://github.com/wejectchen/vue3-snippets-for-vscode/issues",
+        "email": "461662596@qq.com"
+    },
+    "license": "MIT",
     "categories": [
         "Snippets"
     ],
@@ -26,6 +42,7 @@
         ],
         "snippets": [
             {
+                "language": "typescript",
                 "path": "./snippets/snippets.code-snippets"
             },
             {
@@ -40,7 +57,7 @@
                 "language": "html",
                 "path": "./snippets/vue-html.json"
             },
-                        {
+            {
                 "language": "typescript",
                 "path": "./snippets/javascript.json"
             },
@@ -56,7 +73,6 @@
                 "language": "javascript",
                 "path": "./snippets/javascript.json"
             }
-
         ]
     }
 }

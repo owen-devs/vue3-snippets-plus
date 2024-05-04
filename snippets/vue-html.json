@@ -26,7 +26,7 @@
     },
     "vue3 v-for": {
         "prefix": ["v-for"],
-        "body": ["v-for=\"$0\""],
+        "body": ["v-for=\"item in $0\" :key=\"\""],
         "description": "vue3 directive"
     },
     "vue3 v-on": {
