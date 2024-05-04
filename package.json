@@ -16,10 +16,10 @@
     ],
     "repository": {
         "type": "git",
-        "url": ""
+        "url": "https://github.com/owen-devs/vue3-snippets-plus"
     },
     "bugs": {
-        "url": "https://github.com/owen-devs/vue3-snippets-plus",
+        "url": "https://github.com/owen-devs/vue3-snippets-plus/issues",
         "email": "461662596@qq.com"
     },
     "license": "MIT",
