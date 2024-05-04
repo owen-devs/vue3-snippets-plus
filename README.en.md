@@ -28,7 +28,7 @@ You just need to type the code normally, and it will give you a prompt on its ow
 | v-bind               | `v-bind=""`                                                                                           |
 | v-once               | `v-once`                                                                                              |
 | v-pre                | `v-pre`                                                                                               |
-| import               | `import ... from "`                                                                                   |
+| import               | `import ... from ""`                                                                                  |
 | nextTick             | `nextTick(()=>{})`                                                                                    |
 | onMounted            | `onMounted(()=>{})`                                                                                   |
 | watch                | `watch(()=>,(val)=>{})`                                                                               |
