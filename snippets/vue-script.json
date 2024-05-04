@@ -201,12 +201,12 @@
     },
     "vue3 watch()": {
         "prefix": ["watch()"],
-        "body": ["watch($0)"],
-        "description": "vue3 composition API"
+        "body": ["watch(", "\t()=>$0,", "\t(val)=>{", "\t\t", "\t}", ")"],
+        "description": "vue3 composition API watch"
     },
     "vue3 nextTick()": {
         "prefix": ["nextTick()"],
-        "body": ["nextTick($0)"],
+        "body": ["nextTick(()=>{", "\t$0", "})"],
         "description": "vue3 composition API"
     },
     "vue3 defineComponent()": {
