@@ -7,18 +7,19 @@
     "engines": {
         "vscode": "^1.75.0"
     },
-    "icon": "assets/logo.png",
+    "icon": "assets/vue.png",
     "keywords": [
         "vue",
         "snippets",
-        "vue3"
+        "vue3",
+        "vue2"
     ],
     "repository": {
         "type": "git",
         "url": ""
     },
     "bugs": {
-        "url": "https://github.com/wejectchen/vue3-snippets-for-vscode/issues",
+        "url": "https://github.com/",
         "email": "461662596@qq.com"
     },
     "license": "MIT",
