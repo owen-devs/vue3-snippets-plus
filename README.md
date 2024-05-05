@@ -16,11 +16,18 @@ You just need to type the code normally, and it will give you a prompt on its ow
 
 ### Partial examples
 
-| keyword              | snippet                                                                                               |
+| keyword              | snippet(Autoformat)                                                                                   |
 | :------------------- | :---------------------------------------------------------------------------------------------------- |
 | vue                  | `<template><div></div></template><script lang="ts" setup></script><style lang="scss" scoped></style>` |
 | template             | `<template><div></div></template>`                                                                    |
 | component            | `<component :is="" />`                                                                                |
+| suspense             | `<Suspense><template #default></template><template #fallback></template></Suspense>`                  |
+| transition           | `<Transition mode="default"></Transition>`                                                            |
+| transitionGroup      | `<TransitionGroup></TransitionGroup>`                                                                 |
+| keepAlive            | `<KeepAlive></KeepAlive>`                                                                             |
+| teleport             | `<Teleport to="" :disabled=""></Teleport>`                                                            |
+| routerview           | `<router-view v-slot="{route, Component}"></router-view>`                                             |
+| routerlink           | `<router-link to=""></router-link>`                                                                   |
 | script               | `<script lang="ts" setup></script>`                                                                   |
 | scss                 | `<style lang="scss" scoped></style>`                                                                  |
 | less                 | `<style lang="less" scoped></style>`                                                                  |
@@ -44,13 +51,13 @@ You just need to type the code normally, and it will give you a prompt on its ow
 | ref                  | `const ... = ref()`                                                                                   |
 | reactive             | `const ... = reactive({})`                                                                            |
 | readonly             | `const ... = readonly({})`                                                                            |
-| defineModel          | `const ... = defineModel()`                                                                           |
-| defineEmits          | `const ... = defineEmits()`                                                                           |
-| defineProps          | `const ... = defineProps()`                                                                           |
-| defineExpose         | `const ... = defineExpose({})`                                                                        |
-| defineEmits          | `const ... = defineEmits()`                                                                           |
+| defineModel          | `const model = defineModel()`                                                                         |
+| defineEmits          | `const emits = defineEmits()`                                                                         |
+| defineProps          | `const props = defineProps()`                                                                         |
+| defineExpose         | `defineExpose({})`                                                                                    |
 | defineComponent      | `const ... = defineComponent()`                                                                       |
 | defineAsyncComponent | `const ... = defineAsyncComponent()`                                                                  |
-| useSlots             | `const ... = useSlots()`                                                                              |
+| defineCustomElement  | `const ... = defineCustomElement ()`                                                                  |
+| useSlots             | `const slots = useSlots()`                                                                            |
 | createApp            | `const ... = createApp()`                                                                             |
 | createSSRApp         | `const ... = createSSRApp()`                                                                          |
