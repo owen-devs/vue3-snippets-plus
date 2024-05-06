@@ -61,3 +61,7 @@ You just need to type the code normally, and it will give you a prompt on its ow
 | useSlots             | `const slots = useSlots()`                                                                            |
 | createApp            | `const ... = createApp()`                                                                             |
 | createSSRApp         | `const ... = createSSRApp()`                                                                          |
+| h                    | `h()`                                                                                                 |
+| mergeProps           | `mergeProps()`                                                                                        |
+| cloneVNode           | `cloneVNode()`                                                                                        |
+| createRenderer       | `const { render, createApp } = createRenderer({patchProp,insert,remove,createElement})`               |
