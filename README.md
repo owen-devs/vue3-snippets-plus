@@ -43,7 +43,6 @@ You just need to type the code normally, and it will give you a prompt on its ow
 | v-bind               | `v-bind=""`                                                                                           |
 | v-once               | `v-once`                                                                                              |
 | v-pre                | `v-pre`                                                                                               |
-| import               | `import ... from ""`                                                                                  |
 | nextTick             | `nextTick(()=>{})`                                                                                    |
 | onMounted            | `onMounted(()=>{})`                                                                                   |
 | watch                | `watch(()=>,(val)=>{})`                                                                               |
@@ -65,3 +64,25 @@ You just need to type the code normally, and it will give you a prompt on its ow
 | mergeProps           | `mergeProps()`                                                                                        |
 | cloneVNode           | `cloneVNode()`                                                                                        |
 | createRenderer       | `const { render, createApp } = createRenderer({patchProp,insert,remove,createElement})`               |
+
+### Javascript examples
+
+| keyword | snippet(Autoformat)                     |
+| ------- | --------------------------------------- |
+| clog    | console.log(...)                        |
+| promise | new Promise((resolve, reject)=>{...})   |
+| .then   | .then((res)=>{...}).catch((err)=>{...}) |
+| import  | `import ... from "..."`                 |
+| if      | if(...){...}                            |
+| switch  | switch(...){case '...': break}          |
+| for     | for(const i=0;i<....length;i++){...}    |
+| forin   | for(const key in ...){...}              |
+| forof   | for(const item of ...){...}             |
+| foreach | foreach((item, index)=>{...})           |
+
+### Element-plus examples
+
+| keyword       | snippet(Autoformat)                                                                                                                                                                                                                                     |
+| ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| el-pagination | `<el-pagination background v-model:current-page="pageNo" v-model:page-size="pageSize" :page-sizes="[10, 20, 30, 50, 100]" layout="total, sizes, prev, pager, next, jumper" :total="total" @size-change="sizeChange" @current-change="currentChange" />` |
+| ...           | ...                                                                                                                                                                                                                                                     |
