@@ -86,9 +86,9 @@ You just need to type the code normally, and it will give you a prompt on its ow
 | keyword      | snippet(Autoformat) |
 | ------------ | ------------------- |
 | Record       | Record<K, V>        |
-| InstanceType | InstanceType<T>     |
+| InstanceType | `InstanceType<T>`   |
 | Pick         | Pick<T, K>          |
-| Partial      | Partial<T>          |
+| Partial      | `Partial<T>`        |
 | Omit         | Omit<T, K>          |
 
 ### Element-plus examples
